@@ -1,0 +1,166 @@
+{
+  "name": "Gumroad sales -> Airtable (idempotent, paged)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000001",
+      "name": "Every 6 hours",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -260,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://api.gumroad.com/v2/sales",
+        "authentication": "none",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "access_token",
+              "value": "={{ $env.GUMROAD_TOKEN }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000002",
+      "name": "Gumroad sales page 1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -40,
+        0
+      ],
+      "notes": "Read-only. Token lives in n8n env, never in the workflow."
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Same contract as gumroad_sales_to_csv.py: one clean row per sale_id, no dupes.\nconst FIELDS = [\"sale_id\",\"created_at_utc\",\"product_name\",\"product_id\",\"price_cents\",\"price_usd\",\n  \"currency\",\"buyer_email\",\"buyer_name\",\"country\",\"refunded\",\"license_key\",\"utm_source\",\"is_recurring\"];\nfunction transform(payload) {\n  const rows = [], seen = new Set();\n  for (const s of (payload.sales || [])) {\n    if (!s.id || seen.has(s.id)) continue;\n    seen.add(s.id);\n    const price = Number(s.price || 0);\n    const created = s.created_at ? new Date(s.created_at).toISOString().replace(/\\.\\d{3}Z$/, \"Z\") : \"\";\n    rows.push({\n      sale_id: s.id,\n      created_at_utc: created,\n      product_name: (s.product_name || \"\").trim(),\n      product_id: s.product_id || \"\",\n      price_cents: price,\n      price_usd: price / 100,\n      currency: s.currency || \"usd\",\n      buyer_email: (s.email || \"\").trim().toLowerCase(),\n      buyer_name: (s.full_name || s.name || \"\").trim(),\n      country: (s.country || \"\").trim().toUpperCase(),\n      refunded: !!s.refunded,\n      license_key: s.license_key || \"\",\n      utm_source: (s.utm_link && s.utm_link.utm_source) || s.referrer || \"\",\n      is_recurring: !!s.subscription_id,\n    });\n  }\n  rows.sort((a, b) => (a.created_at_utc < b.created_at_utc ? 1 : -1));\n  return rows.map(r => ({ json: r }));\n}\nconst all = [];\nlet page = $input.first().json;\nfor (let i = 0; i < 50; i++) {          // page through, 50 pages hard cap\n  all.push(...transform(page));\n  if (!page.next_page_key) break;\n  page = await this.helpers.httpRequest({\n    url: \"https://api.gumroad.com/v2/sales\",\n    qs: { access_token: $env.GUMROAD_TOKEN, page_key: page.next_page_key },\n    json: true,\n  });\n}\nreturn all;"
+      },
+      "id": "a1000000-0000-4000-8000-000000000003",
+      "name": "Clean + dedupe by sale_id",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        180,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "upsert",
+        "base": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $env.AIRTABLE_BASE_ID }}"
+        },
+        "table": {
+          "__rl": true,
+          "mode": "id",
+          "value": "Sales"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "matchingColumns": [
+            "sale_id"
+          ],
+          "schema": [
+            {
+              "id": "sale_id",
+              "displayName": "sale_id",
+              "type": "string",
+              "matched": true,
+              "required": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000004",
+      "name": "Airtable upsert on sale_id",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        400,
+        0
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "REPLACE",
+          "name": "Airtable PAT"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Gumroad -> Airtable\nSchedule every 6h: `GET /v2/sales` -> dedupe by `sale_id` -> Airtable upsert.\nReruns are safe: the same sale never creates a second row, and a refund later flips `refunded` on the existing row.\nSet `GUMROAD_TOKEN` (read-only scope) + `AIRTABLE_BASE_ID` as env vars; the Airtable PAT is a credential, not a parameter.",
+        "height": 300,
+        "width": 460,
+        "color": 5
+      },
+      "id": "a1000000-0000-4000-8000-000000000005",
+      "name": "Read me",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -260,
+        220
+      ]
+    }
+  ],
+  "connections": {
+    "Every 6 hours": {
+      "main": [
+        [
+          {
+            "node": "Gumroad sales page 1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gumroad sales page 1": {
+      "main": [
+        [
+          {
+            "node": "Clean + dedupe by sale_id",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clean + dedupe by sale_id": {
+      "main": [
+        [
+          {
+            "node": "Airtable upsert on sale_id",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

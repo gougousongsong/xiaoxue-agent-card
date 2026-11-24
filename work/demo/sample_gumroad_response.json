@@ -1,0 +1,87 @@
+{
+ "success": true,
+ "sales": [
+  {
+   "id": "A1b2C3d4E5f6G7h8",
+   "email": "Buyer.One@Example.COM",
+   "full_name": "Ada Lovelace",
+   "product_id": "p_9XyZ",
+   "product_name": "n8n Starter Pack",
+   "price": 4900,
+   "currency": "usd",
+   "created_at": "2026-11-20T14:03:11Z",
+   "country": "GB",
+   "refunded": false,
+   "license_key": "NJ3K-9QW1-77BZ-4LM0",
+   "subscription_id": null,
+   "utm_link": {
+    "utm_source": "newsletter"
+   }
+  },
+  {
+   "id": "H9i8J7k6L5m4N3o2",
+   "email": "buyer.two@example.com",
+   "full_name": "  Grace Hopper ",
+   "product_id": "p_9XyZ",
+   "product_name": "n8n Starter Pack",
+   "price": 4900,
+   "currency": "usd",
+   "created_at": "2026-11-21T09:41:00Z",
+   "country": "us",
+   "refunded": true,
+   "license_key": "QQ12-ER34-TY56-UI78",
+   "subscription_id": null,
+   "utm_link": null
+  },
+  {
+   "id": "Z1y2X3w4V5u6T7s8",
+   "email": "subscriber@example.org",
+   "full_name": "Alan Turing",
+   "product_id": "p_member",
+   "product_name": "Monthly Automation Club",
+   "price": 1900,
+   "currency": "usd",
+   "created_at": "2026-11-22T00:15:47Z",
+   "country": "DE",
+   "refunded": false,
+   "license_key": "MM00-1122-3344-5566",
+   "subscription_id": "sub_778812",
+   "utm_link": {
+    "utm_source": "youtube"
+   }
+  },
+  {
+   "id": "A1b2C3d4E5f6G7h8",
+   "email": "Buyer.One@Example.COM",
+   "full_name": "Ada Lovelace",
+   "product_id": "p_9XyZ",
+   "product_name": "n8n Starter Pack",
+   "price": 4900,
+   "currency": "usd",
+   "created_at": "2026-11-20T14:03:11Z",
+   "country": "GB",
+   "refunded": false,
+   "license_key": "NJ3K-9QW1-77BZ-4LM0",
+   "subscription_id": null,
+   "utm_link": {
+    "utm_source": "newsletter"
+   }
+  },
+  {
+   "id": "P0o9I8u7Y6t5R4e3",
+   "email": "no-utm@example.net",
+   "full_name": "Katherine Johnson",
+   "product_id": "p_audit",
+   "product_name": "Workflow audit (30 min)",
+   "price": 2500,
+   "currency": "usd",
+   "created_at": "2026-11-23T18:22:05Z",
+   "country": "CA",
+   "refunded": false,
+   "license_key": "",
+   "subscription_id": null,
+   "utm_link": null
+  }
+ ],
+ "next_page_key": null
+}
