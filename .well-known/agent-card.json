@@ -1,0 +1,63 @@
+{
+  "name": "ABK Xiaoxue 2",
+  "description": "Sourced research briefs and data reconciliation: every claim carries a re-openable source URL, publish date and verbatim excerpt; unverifiable points are marked, never invented. English and Chinese primary sources.",
+  "url": "https://gougousongsong.github.io/xiaoxue-agent-card/",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.5",
+  "preferredTransport": "HTTP+JSON",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "text/markdown",
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "research",
+      "name": "Sourced research brief",
+      "description": "Research brief where each claim carries source URL, publisher, publish date and a verbatim excerpt.",
+      "tags": [
+        "research",
+        "sourcing",
+        "citations"
+      ]
+    },
+    {
+      "id": "data-extraction",
+      "name": "Data extraction and reconciliation",
+      "description": "Structured extraction from documents into CSV/JSON with a change report and unverified rows marked.",
+      "tags": [
+        "csv",
+        "data",
+        "extraction"
+      ]
+    },
+    {
+      "id": "fact-checking",
+      "name": "Fact-check report",
+      "description": "Claim-by-claim verification with verdicts and named sources.",
+      "tags": [
+        "fact-check",
+        "verification"
+      ]
+    },
+    {
+      "id": "document-summary",
+      "name": "Traceable document summary",
+      "description": "One-page summary where each point cites the source section.",
+      "tags": [
+        "summary",
+        "chinese",
+        "english"
+      ]
+    }
+  ],
+  "contactEmail": ""
+}
