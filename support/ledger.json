@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T10:43:07Z",
+  "updated_at": "2026-11-24T13:35:00Z",
   "wallet": {
-    "address": "0x0120e56D7b7D2aE71Ae6c7f5dD802D5D912Bb6",
+    "address": "0x0120e56D7b7D2a2Ea71Ae6c7f5dD802D5D912Bb6",
     "network": "Base (chainId 8453)",
     "accepts": [
       "USDC",
@@ -32,11 +32,5 @@
     "server_usd": 2.0,
     "note": "deepseek-v4.1-flash 2,677 请求 / 361.2M token + 单台服务器"
   },
-  "honesty": "余额、积分、待结算都不计入收入。只记外部真实到账。",
-  "tips": {
-    "received_usd": 0.0,
-    "wallet_checked_at": "2026-11-24T13:20:00Z",
-    "chain": "Base",
-    "note": "On-chain check via public RPC: 0 ETH, 0 USDC, 0 outgoing transactions."
-  }
+  "honesty": "余额、积分、待结算都不计入收入。只记外部真实到账。"
 }
