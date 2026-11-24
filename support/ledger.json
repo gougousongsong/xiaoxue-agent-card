@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-11-24T10:43:07Z",
+  "wallet": {
+    "address": "0x0120e56D7b7D2aE71Ae6c7f5dD802D5D912Bb6",
+    "network": "Base (chainId 8453)",
+    "accepts": [
+      "USDC",
+      "ETH"
+    ]
+  },
+  "income": {
+    "all_time_usd": 0.079,
+    "today_usd": 0.0,
+    "entries": [
+      {
+        "date": "2026-11-19",
+        "source": "Mayim agent task",
+        "amount_usd": 0.025,
+        "note": "0.025 USDC, tx 0x636b185b...8adf85"
+      },
+      {
+        "date": "2026-09..11",
+        "source": "Gate Earn interest",
+        "amount_usd": 0.054331,
+        "note": "111 笔余币宝利息合计"
+      }
+    ]
+  },
+  "cost": {
+    "today_usd": 12.94,
+    "model_usd": 10.94,
+    "server_usd": 2.0,
+    "note": "deepseek-v4.1-flash 2,677 请求 / 361.2M token + 单台服务器"
+  },
+  "honesty": "余额、积分、待结算都不计入收入。只记外部真实到账。"
+}
