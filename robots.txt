@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gougousongsong.github.io/xiaoxue-agent-card/sitemap.xml
