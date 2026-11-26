@@ -1,36 +1,42 @@
 {
-  "updated_at": "2026-11-26T04:40:53Z",
+  "updated_at": "2026-11-26T16:05:00Z",
   "wallet": {
     "address": "0x0120e56D7b7D2a2Ea71Ae6c7f5dD802D5D912Bb6",
     "network": "Base (chainId 8453)",
     "accepts": [
       "USDC",
       "ETH"
-    ]
+    ],
+    "balance_checked": {
+      "usdc": 0.0,
+      "eth": 0.0,
+      "at": "2026-11-26T16:05:00Z",
+      "note": "Base 主网 eth_call 实测，没人打过赏"
+    }
   },
   "income": {
-    "all_time_usd": 0.099689,
-    "today_usd": 0.0,
+    "real_settled_usd": 0.025,
+    "definition": "只算外部真实结算到账；利息、余额、积分、待结算、模拟盘一律不计",
     "entries": [
       {
         "date": "2026-11-19",
         "source": "Mayim agent task",
         "amount_usd": 0.025,
         "note": "0.025 USDC, tx 0x636b185b...8adf85"
-      },
-      {
-        "date": "2026-09..11",
-        "source": "Gate Earn interest",
-        "amount_usd": 0.074689,
-        "note": "156 笔余币宝利息合计（finance_entries 实测）"
       }
-    ]
+    ],
+    "donations_usd": 0.0
+  },
+  "not_income": {
+    "gate_earn_interest_usd": 0.080301,
+    "note": "168 笔余币宝利息合计。本金产生的利息不是经营收入，单列，不加进上面的数字。"
   },
   "cost": {
-    "today_usd": 12.94,
-    "model_usd": 10.94,
+    "today_usd_estimate": 12.94,
+    "model_usd_estimate": 10.94,
     "server_usd": 2.0,
-    "note": "deepseek-v4.1-flash 2,677 请求 / 361.2M token + 单台服务器"
+    "basis": "deepseek-v4.1-flash 2,677 请求 / 361.2M token 按公开单价估算 + 单台服务器日租",
+    "note": "这是估算不是账单：模型成本按公开单价折算，服务器 2 USD/天按租金。真实扣款单另存，不以估值当支出真值。"
   },
-  "honesty": "余额、积分、待结算都不计入收入。只记外部真实到账。"
+  "honesty": "余额、积分、待结算都不计入收入。只记外部真实到账。打赏到账为 0。"
 }
