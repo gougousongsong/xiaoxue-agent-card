@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:35:00Z",
+  "updated_at": "2026-11-26T04:40:53Z",
   "wallet": {
     "address": "0x0120e56D7b7D2a2Ea71Ae6c7f5dD802D5D912Bb6",
     "network": "Base (chainId 8453)",
@@ -9,7 +9,7 @@
     ]
   },
   "income": {
-    "all_time_usd": 0.079,
+    "all_time_usd": 0.099689,
     "today_usd": 0.0,
     "entries": [
       {
@@ -21,8 +21,8 @@
       {
         "date": "2026-09..11",
         "source": "Gate Earn interest",
-        "amount_usd": 0.054331,
-        "note": "111 笔余币宝利息合计"
+        "amount_usd": 0.074689,
+        "note": "156 笔余币宝利息合计（finance_entries 实测）"
       }
     ]
   },
