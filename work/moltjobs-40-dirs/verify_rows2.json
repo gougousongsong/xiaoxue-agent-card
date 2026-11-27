@@ -1,0 +1,697 @@
+[
+ {
+  "name": "There's An AI For That",
+  "url": "https://theresanaiforthat.com/submit/",
+  "guess_price": "paid",
+  "guess_email": "hello@theresanaiforthat.com",
+  "status": 403,
+  "final_url": "https://theresanaiforthat.com/submit/",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Toolify",
+  "url": "https://www.toolify.ai/submit",
+  "guess_price": "freemium",
+  "guess_email": "support@toolify.ai",
+  "status": 403,
+  "final_url": "https://www.toolify.ai/submit",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Virtuals Protocol",
+  "url": "https://app.virtuals.io/",
+  "guess_price": "paid",
+  "guess_email": "support@virtuals.io",
+  "status": 200,
+  "final_url": "https://app.virtuals.io/",
+  "title": "Virtuals Protocol | Society of AI Agents",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Olas (Autonolas)",
+  "url": "https://olas.network/operate",
+  "guess_price": "free",
+  "guess_email": "info@olas.network",
+  "status": 200,
+  "final_url": "https://olas.network/operate",
+  "title": "Operate | Olas | Co-own AI",
+  "mailtos": [
+   "press@valory.xyz"
+  ],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": "press@valory.xyz"
+ },
+ {
+  "name": "AI Agent Store",
+  "url": "https://aiagentstore.ai/new-agent",
+  "guess_price": "free",
+  "guess_email": "info@aiagentstore.ai",
+  "status": 200,
+  "final_url": "https://aiagentstore.ai/new-agent",
+  "title": "List Your AI Agent | AI Agent Store",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "TopAI.tools",
+  "url": "https://topai.tools/submit",
+  "guess_price": "freemium",
+  "guess_email": "hello@topai.tools",
+  "status": 403,
+  "final_url": "https://topai.tools/submit",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "BasedAgents",
+  "url": "https://basedagents.ai/agents/new",
+  "guess_price": "free",
+  "guess_email": "support@basedagents.ai",
+  "status": 200,
+  "final_url": "https://basedagents.ai/agents/new",
+  "title": "BasedAgents \u2014 The task marketplace for AI agents",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "FutureTools",
+  "url": "https://futuretools.io/submit-a-tool",
+  "guess_price": "free",
+  "guess_email": "matt@futuretools.io",
+  "status": 200,
+  "final_url": "https://futuretools.io/submit-a-tool",
+  "title": "Future Tools - Submit a Tool",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [
+   "freemium",
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$1",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Product Hunt",
+  "url": "https://www.producthunt.com/posts/new",
+  "guess_price": "free",
+  "guess_email": "hello@producthunt.com",
+  "status": 403,
+  "final_url": "https://www.producthunt.com/posts/new",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Agents.ai Directory",
+  "url": "https://agents.ai/",
+  "guess_price": "freemium",
+  "guess_email": "hello@agents.ai",
+  "status": 200,
+  "final_url": "https://agents.ai/",
+  "title": "Your next employee isn&#x27;t human: early access and presale credits | Agents.ai",
+  "mailtos": [
+   "sarah@brightdental.com",
+   "support@agents.ai",
+   "support@agents.ai"
+  ],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$0.01",
+  "fill_mailtos": [],
+  "email_verified": "sarah@brightdental.com"
+ },
+ {
+  "name": "MoltJobs",
+  "url": "https://app.moltjobs.io/dashboard",
+  "guess_price": "free",
+  "guess_email": "support@moltjobs.io",
+  "status": 200,
+  "final_url": "https://app.moltjobs.io/dashboard",
+  "title": "MoltJobs | Agent Dashboard",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "AlternativeTo",
+  "url": "https://alternativeto.net/manage/submit-app/",
+  "guess_price": "free",
+  "guess_email": "support@alternativeto.net",
+  "status": 403,
+  "final_url": "https://alternativeto.net/manage/submit-app/",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "BetaList",
+  "url": "https://betalist.com/submissions/new",
+  "guess_price": "paid",
+  "guess_email": "hello@betalist.com",
+  "status": 200,
+  "final_url": "https://betalist.com/submissions/new",
+  "title": "Discover and get early access to tomorrow&#39;s startups | BetaList",
+  "mailtos": [
+   "you@yourstartup.com"
+  ],
+  "has_form": true,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": "you@yourstartup.com"
+ },
+ {
+  "name": "SaaSHub",
+  "url": "https://www.saashub.com/submit",
+  "guess_price": "freemium",
+  "guess_email": "support@saashub.com",
+  "status": 200,
+  "final_url": "https://www.saashub.com/submit",
+  "title": "SaaSHub Submit - Top Submitted Products of Last 30 days",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "LangChain Hub",
+  "url": "https://smith.langchain.com/hub",
+  "guess_price": "freemium",
+  "guess_email": "support@langchain.dev",
+  "status": 200,
+  "final_url": "https://smith.langchain.com/hub",
+  "title": "LangSmith",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Hugging Face Spaces",
+  "url": "https://huggingface.co/login?next=%2Fnew-space",
+  "guess_price": "freemium",
+  "guess_email": "support@huggingface.co",
+  "status": 200,
+  "final_url": "https://huggingface.co/login?next=%2Fnew-space",
+  "title": "Hugging Face \u2013 The AI community building the future.",
+  "mailtos": [
+   "git@hf.co"
+  ],
+  "has_form": true,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": "git@hf.co"
+ },
+ {
+  "name": "Make Templates",
+  "url": "https://www.make.com/en/templates",
+  "guess_price": "freemium",
+  "guess_email": "support@make.com",
+  "status": 403,
+  "final_url": "https://www.make.com/en/templates",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "OpenAgentHub",
+  "url": "https://openagenthub.ai/",
+  "guess_price": "free",
+  "guess_email": "hello@openagenthub.ai",
+  "status": 200,
+  "final_url": "https://openagenthub.ai/",
+  "title": "openagenthub.ai for sale | Spaceship.com",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$100",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "CrewAI Marketplace",
+  "url": "https://marketplace.crewai.com/",
+  "guess_price": "free",
+  "guess_email": "support@crewai.com",
+  "status": 200,
+  "final_url": "https://marketplace.crewai.com/",
+  "title": "CrewAI Enterprise | Submit Your Crew for Evaluation",
+  "mailtos": [
+   "marketplace@crewai.com"
+  ],
+  "has_form": false,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$1",
+  "fill_mailtos": [],
+  "email_verified": "marketplace@crewai.com"
+ },
+ {
+  "name": "n8n Templates",
+  "url": "https://n8n.io/workflows/",
+  "guess_price": "free",
+  "guess_email": "hello@n8n.io",
+  "status": 200,
+  "final_url": "https://n8n.io/workflows/",
+  "title": "Discover 14414 Automation Workflows from the n8n&#x27;s Community",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$100",
+  "fill_mailtos": [
+   "marketing@n8n.io",
+   "license@n8n.io",
+   "nodes@n8n.io",
+   "community@n8n.io",
+   "partners@n8n.io"
+  ],
+  "email_verified": "marketing@n8n.io"
+ },
+ {
+  "name": "AI Agents List",
+  "url": "https://aiagentslist.com/submit",
+  "guess_price": "free",
+  "guess_email": "hello@aiagentslist.com",
+  "status": 200,
+  "final_url": "https://aiagentslist.com/submit",
+  "title": "Submit Your AI Tool | AI Agents List",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$29",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Zapier App Directory",
+  "url": "https://developer.zapier.com/",
+  "guess_price": "free",
+  "guess_email": "partners@zapier.com",
+  "status": 200,
+  "final_url": "https://developer.zapier.com/",
+  "title": "Platform UI | Zapier",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Smithery (MCP)",
+  "url": "https://www.smithery.ai/",
+  "guess_price": "freemium",
+  "guess_email": "hello@smithery.ai",
+  "status": 200,
+  "final_url": "https://www.smithery.ai/",
+  "title": "Smithery \u00b7 MCP servers, now part of Arcade",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$2",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "PulseMCP",
+  "url": "https://www.pulsemcp.com/submit",
+  "guess_price": "free",
+  "guess_email": "hello@pulsemcp.com",
+  "status": 403,
+  "final_url": "https://www.pulsemcp.com/submit",
+  "title": "Attention Required! | Cloudflare",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Supertools",
+  "url": "https://www.therundown.ai/submit",
+  "guess_price": "freemium",
+  "guess_email": "hello@therundown.ai",
+  "status": 200,
+  "final_url": "https://www.therundown.ai/submit",
+  "title": "Submit your AI tool | The Rundown AI",
+  "mailtos": [
+   "support@therundown.ai"
+  ],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$1",
+  "fill_mailtos": [],
+  "email_verified": "support@therundown.ai"
+ },
+ {
+  "name": "OpenFuture AI directory",
+  "url": "https://openfuture.ai/submit",
+  "guess_price": "free",
+  "guess_email": "hello@openfuture.ai",
+  "status": 403,
+  "final_url": "https://openfuture.ai/submit",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Insidr AI Directory",
+  "url": "https://www.insidr.ai/submit-tools/",
+  "guess_price": "paid",
+  "guess_email": "hello@insidr.ai",
+  "status": 200,
+  "final_url": "https://www.insidr.ai/submit-tools/",
+  "title": "Submit AI Tools - Insidr.ai",
+  "mailtos": [
+   "info@insidr.ai"
+  ],
+  "has_form": false,
+  "price_hits": [
+   "freemium"
+  ],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": "info@insidr.ai"
+ },
+ {
+  "name": "Startup Stash",
+  "url": "https://startupstash.com/get-listed/",
+  "guess_price": "paid",
+  "guess_email": "hello@startupstash.com",
+  "status": 200,
+  "final_url": "https://startupstash.com/get-listed/",
+  "title": "Get listed on Startup Stash - Startup Stash",
+  "mailtos": [
+   "hello@startupstash.com"
+  ],
+  "has_form": true,
+  "price_hits": [
+   "free",
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$299",
+  "fill_mailtos": [],
+  "email_verified": "hello@startupstash.com"
+ },
+ {
+  "name": "mcp.so",
+  "url": "https://mcp.so/submit",
+  "guess_price": "freemium",
+  "guess_email": "hi@mcp.so",
+  "status": 200,
+  "final_url": "https://mcp.so/submit",
+  "title": "Submit your project",
+  "mailtos": [
+   "support@mcp.so"
+  ],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$39",
+  "fill_mailtos": [],
+  "email_verified": "support@mcp.so"
+ },
+ {
+  "name": "Launching Next",
+  "url": "https://www.launchingnext.com/submit/",
+  "guess_price": "free",
+  "guess_email": "hello@launchingnext.com",
+  "status": 200,
+  "final_url": "https://www.launchingnext.com/submit/",
+  "title": "Submit Your Project | Launching Next",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$99",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Indie Hackers Products",
+  "url": "https://www.indiehackers.com/products",
+  "guess_price": "free",
+  "guess_email": "support@indiehackers.com",
+  "status": 403,
+  "final_url": "https://www.indiehackers.com/products",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Peerlist Launchpad",
+  "url": "https://peerlist.io/launchpad",
+  "guess_price": "free",
+  "guess_email": "hello@peerlist.io",
+  "status": 403,
+  "final_url": "https://peerlist.io/launchpad",
+  "title": "Just a moment...",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Fazier",
+  "url": "https://fazier.com/submit",
+  "guess_price": "paid",
+  "guess_email": "hello@fazier.com",
+  "status": 200,
+  "final_url": "https://fazier.com/submit",
+  "title": "Fazier \u2013 Find your next favourite product, every day.",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$39",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Sideprojectors",
+  "url": "https://www.sideprojectors.com/submit",
+  "guess_price": "free",
+  "guess_email": "hello@sideprojectors.com",
+  "status": 200,
+  "final_url": "https://www.sideprojectors.com/submit",
+  "title": "Sell, buy, show off your side projects - SideProjectors | Marketplace to buy and sell side projects.",
+  "mailtos": [
+   "hello@sideprojectors.com",
+   "hello@sideprojectors.com"
+  ],
+  "has_form": false,
+  "price_hits": [
+   "freemium",
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$7",
+  "fill_mailtos": [],
+  "email_verified": "hello@sideprojectors.com"
+ },
+ {
+  "name": "DevHunt",
+  "url": "https://devhunt.org/",
+  "guess_price": "free",
+  "guess_email": "hello@devhunt.org",
+  "status": 200,
+  "final_url": "https://devhunt.org/",
+  "title": "DevHunt: the Launchpad and Directory for New Developer Tools",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [
+   "freemium",
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$ 199",
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "AI Agents Directory",
+  "url": "https://aiagentsdirectory.com/",
+  "guess_price": "freemium",
+  "guess_email": "hello@aiagentsdirectory.com",
+  "status": 200,
+  "final_url": "https://aiagentsdirectory.com/",
+  "title": "AI Agent Marketplace &amp; Directory | Find Top AI Agents &amp; AI Agent Solutions",
+  "mailtos": [
+   "hello@aiagentsdirectory.com",
+   "hello+aiagentsdirectory@kdci.co",
+   "m.alioto@uniamos.com"
+  ],
+  "has_form": true,
+  "price_hits": [
+   "free",
+   "freemium",
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$850",
+  "fill_mailtos": [],
+  "email_verified": "hello@aiagentsdirectory.com"
+ },
+ {
+  "name": "Glama MCP directory",
+  "url": "https://glama.ai/mcp",
+  "guess_price": "free",
+  "guess_email": "support@glama.ai",
+  "status": 200,
+  "final_url": "https://glama.ai/mcp",
+  "title": "MCP \u2013 Model Context Protocol Servers, Clients, and Tools",
+  "mailtos": [],
+  "has_form": true,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [
+   "frank@glama.ai"
+  ],
+  "email_verified": "frank@glama.ai"
+ },
+ {
+  "name": "ClawWork",
+  "url": "https://www.clawwork.ai/",
+  "guess_price": "free",
+  "guess_email": "support@clawwork.ai",
+  "status": 200,
+  "final_url": "https://www.clawwork.ai/",
+  "title": "",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ },
+ {
+  "name": "Futurepedia",
+  "url": "https://www.futurepedia.io/",
+  "guess_price": "paid",
+  "guess_email": "hello@futurepedia.io",
+  "status": 200,
+  "final_url": "https://www.futurepedia.io/",
+  "title": "Find The Best AI Tools &amp; Software, Futurepedia.io",
+  "mailtos": [
+   "contact@futurepedia.io",
+   "contact@futurepedia.io",
+   "contact@futurepedia.io"
+  ],
+  "has_form": false,
+  "price_hits": [
+   "paid"
+  ],
+  "error": null,
+  "price_example": "$1",
+  "fill_mailtos": [],
+  "email_verified": "contact@futurepedia.io"
+ },
+ {
+  "name": "MCP Server Registry",
+  "url": "https://github.com/modelcontextprotocol/servers",
+  "guess_price": "free",
+  "guess_email": "mcp@modelcontextprotocol.io",
+  "status": 200,
+  "final_url": "https://github.com/modelcontextprotocol/servers",
+  "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Reference Servers \u00b7 GitHub",
+  "mailtos": [],
+  "has_form": false,
+  "price_hits": [],
+  "error": null,
+  "fill_mailtos": [],
+  "email_verified": null
+ }
+]

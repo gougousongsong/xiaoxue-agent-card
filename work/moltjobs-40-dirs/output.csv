@@ -1,41 +1,41 @@
-Directory Name,Submission URL,Pricing,Contact Email
-MoltJobs,https://app.moltjobs.io/dashboard,free,support@moltjobs.io
-BasedAgents,https://basedagents.ai/agents/new,free,support@basedagents.ai
-Olas (Autonolas),https://olas.network/operate,free,info@olas.network
-Virtuals Protocol,https://app.virtuals.io/,paid,support@virtuals.io
-Agents.ai Directory,https://agents.ai/,freemium,hello@agents.ai
-AI Agent Store,https://aiagentstore.ai/new-agent,free,info@aiagentstore.ai
-There's An AI For That,https://theresanaiforthat.com/submit/,paid,hello@theresanaiforthat.com
-Toolify,https://www.toolify.ai/submit,freemium,support@toolify.ai
-FutureTools,https://futuretools.io/submit-a-tool,free,matt@futuretools.io
-TopAI.tools,https://topai.tools/submit,freemium,hello@topai.tools
-SaaSHub,https://www.saashub.com/submit,freemium,support@saashub.com
-Product Hunt,https://www.producthunt.com/posts/new,free,hello@producthunt.com
-BetaList,https://betalist.com/submissions/new,paid,hello@betalist.com
-AlternativeTo,https://alternativeto.net/manage/submit-app/,free,support@alternativeto.net
-AI Agents List,https://aiagentslist.com/submit,free,hello@aiagentslist.com
-OpenAgentHub,https://openagenthub.ai/,free,hello@openagenthub.ai
-LangChain Hub,https://smith.langchain.com/hub,freemium,support@langchain.dev
-CrewAI Marketplace,https://marketplace.crewai.com/,free,support@crewai.com
-Hugging Face Spaces,https://huggingface.co/login?next=%2Fnew-space,freemium,support@huggingface.co
-n8n Templates,https://n8n.io/workflows/,free,hello@n8n.io
-Make Templates,https://www.make.com/en/templates,freemium,support@make.com
-Zapier App Directory,https://developer.zapier.com/,free,partners@zapier.com
-MCP Server Registry,https://github.com/modelcontextprotocol/servers,free,mcp@modelcontextprotocol.io
-Smithery (MCP),https://www.smithery.ai/,freemium,hello@smithery.ai
-PulseMCP,https://www.pulsemcp.com/submit,free,hello@pulsemcp.com
-mcp.so,https://mcp.so/submit,freemium,hi@mcp.so
-Insidr AI Directory,https://www.insidr.ai/submit-tools/,paid,hello@insidr.ai
-Supertools,https://www.therundown.ai/submit,freemium,hello@therundown.ai
-OpenFuture AI directory,https://openfuture.ai/submit,free,hello@openfuture.ai
-Startup Stash,https://startupstash.com/get-listed/,paid,hello@startupstash.com
-Launching Next,https://www.launchingnext.com/submit/,free,hello@launchingnext.com
-Sideprojectors,https://www.sideprojectors.com/submit,free,hello@sideprojectors.com
-Indie Hackers Products,https://www.indiehackers.com/products,free,support@indiehackers.com
-Peerlist Launchpad,https://peerlist.io/launchpad,free,hello@peerlist.io
-DevHunt,https://devhunt.org/,free,hello@devhunt.org
-Fazier,https://fazier.com/submit,paid,hello@fazier.com
-ClawWork,https://www.clawwork.ai/,free,support@clawwork.ai
-AI Agents Directory,https://aiagentsdirectory.com/,freemium,hello@aiagentsdirectory.com
-Futurepedia,https://www.futurepedia.io/,paid,hello@futurepedia.io
-Glama MCP directory,https://glama.ai/mcp,free,support@glama.ai
+Directory Name,Submission URL,Pricing,Contact Email,Verified (UTC)
+There's An AI For That,https://theresanaiforthat.com/submit/,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Toolify,https://www.toolify.ai/submit,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Virtuals Protocol,https://app.virtuals.io/,not stated on page,web form only,2026-11-27
+Olas (Autonolas),https://olas.network/operate,not stated on page,press@valory.xyz,2026-11-27
+AI Agent Store,https://aiagentstore.ai/new-agent,not stated on page,web form only,2026-11-27
+TopAI.tools,https://topai.tools/submit,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+BasedAgents,https://basedagents.ai/agents/new,not stated on page,web form only,2026-11-27
+FutureTools,https://futuretools.io/submit-a-tool,not stated on page,web form only,2026-11-27
+Product Hunt,https://www.producthunt.com/posts/new,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Agents.ai Directory,https://agents.ai/,"paid, $5 seen near listing/pricing words",support@agents.ai,2026-11-27
+MoltJobs,https://app.moltjobs.io/dashboard,not stated on page,web form only,2026-11-27
+AlternativeTo,https://alternativeto.net/manage/submit-app/,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+BetaList,https://betalist.com/submissions/new,not stated on page,web form only,2026-11-27
+SaaSHub,https://www.saashub.com/submit,free/freemium stated near listing words (no price shown),web form only,2026-11-27
+LangChain Hub,https://smith.langchain.com/hub,not stated on page,web form only,2026-11-27
+Hugging Face Spaces,https://huggingface.co/login?next=%2Fnew-space,not stated on page,web form only,2026-11-27
+Make Templates,https://www.make.com/en/templates,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+OpenAgentHub,https://openagenthub.ai/,not stated on page,web form only,2026-11-27
+CrewAI Marketplace,https://marketplace.crewai.com/,free/freemium stated near listing words (no price shown),marketplace@crewai.com,2026-11-27
+n8n Templates,https://n8n.io/workflows/,"paid, $0.3-$5 seen near listing/pricing words",partners@n8n.io,2026-11-27
+AI Agents List,https://aiagentslist.com/submit,"paid, $29-$49 seen near listing/pricing words (+free tier text)",web form only,2026-11-27
+Zapier App Directory,https://developer.zapier.com/,not stated on page,web form only,2026-11-27
+Smithery (MCP),https://www.smithery.ai/,not stated on page,web form only,2026-11-27
+PulseMCP,https://www.pulsemcp.com/submit,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Supertools,https://www.therundown.ai/submit,not stated on page,support@therundown.ai,2026-11-27
+OpenFuture AI directory,https://openfuture.ai/submit,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Insidr AI Directory,https://www.insidr.ai/submit-tools/,not stated on page,info@insidr.ai,2026-11-27
+Startup Stash,https://startupstash.com/get-listed/,"paid, $199-$599 seen near listing/pricing words (+free tier text)",hello@startupstash.com,2026-11-27
+mcp.so,https://mcp.so/submit,"paid, $39 seen near listing/pricing words",support@mcp.so,2026-11-27
+Launching Next,https://www.launchingnext.com/submit/,"paid, $0-$15 seen near listing/pricing words (+free tier text)",web form only,2026-11-27
+Indie Hackers Products,https://www.indiehackers.com/products,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Peerlist Launchpad,https://peerlist.io/launchpad,bot-blocked (Cloudflare) - check in browser,web form only,2026-11-27
+Fazier,https://fazier.com/submit,"paid, $29-$69 seen near listing/pricing words (+free tier text)",web form only,2026-11-27
+Sideprojectors,https://www.sideprojectors.com/submit,free/freemium stated near listing words (no price shown),hello@sideprojectors.com,2026-11-27
+DevHunt,https://devhunt.org/,not stated on page,web form only,2026-11-27
+AI Agents Directory,https://aiagentsdirectory.com/,"paid, $1-$6 seen near listing/pricing words",hello@aiagentsdirectory.com,2026-11-27
+Glama MCP directory,https://glama.ai/mcp,not stated on page,frank@glama.ai,2026-11-27
+ClawWork,https://www.clawwork.ai/,not stated on page,web form only,2026-11-27
+Futurepedia,https://www.futurepedia.io/,not stated on page,contact@futurepedia.io,2026-11-27
+MCP Server Registry,https://github.com/modelcontextprotocol/servers,not stated on page,web form only,2026-11-27
