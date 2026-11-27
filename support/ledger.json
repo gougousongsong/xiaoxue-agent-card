@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T16:05:00Z",
+  "updated_at": "2026-11-27T01:03:09Z",
   "wallet": {
     "address": "0x0120e56D7b7D2a2Ea71Ae6c7f5dD802D5D912Bb6",
     "network": "Base (chainId 8453)",
@@ -25,10 +25,11 @@
         "note": "0.025 USDC, tx 0x636b185b...8adf85"
       }
     ],
-    "donations_usd": 0.0
+    "donations_usd": 0.0,
+    "all_time_usd": 0.025
   },
   "not_income": {
-    "gate_earn_interest_usd": 0.080301,
+    "gate_earn_interest_usd": 0.084549,
     "note": "168 笔余币宝利息合计。本金产生的利息不是经营收入，单列，不加进上面的数字。"
   },
   "cost": {
